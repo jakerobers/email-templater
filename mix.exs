@@ -4,7 +4,7 @@ defmodule Email.Mixfile do
   def project do
     [app: :email,
      version: "0.0.1",
-     elixir: "~> 1.0",
+     elixir: "~> 1.0.2",
      elixirc_paths: ["lib", "web"],
      compilers: [:phoenix] ++ Mix.compilers,
      deps: deps]

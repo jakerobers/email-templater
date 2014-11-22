@@ -6,7 +6,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-haml2html"
 
-  grunt.registerTask "default", ["concat", "uglify", "sass"]
+  grunt.registerTask "default", ["haml", "sass", "concat", "uglify"]
 
   # Reset built.css bsfore concatting
   grunt.file.write("priv/static/js/built.js", "")
@@ -18,7 +18,10 @@ module.exports = (grunt) ->
     haml:
       web:
         files:
-          "web/templates/page/web/index.html.eex": "precompiled/haml/web/index.haml"
+          "web/templates/page/index.html.eex": "precompiled/haml/web/index.haml"
+          "web/templates/page/error.html.eex": "precompiled/haml/web/error.haml"
+          "web/templates/page/not_found.html.eex": "precompiled/haml/web/not_found.haml"
+          "web/templates/layout/application.html.eex": "precompiled/haml/web/layout/application.haml"
         # END files
       # END web
     # END haml
@@ -30,7 +33,8 @@ module.exports = (grunt) ->
         # END options
 
         files:
-          "priv/static/css/web/style.css": "precompiled/sass/web/style.sass"
+          "priv/static/css/web/global.css": "precompiled/sass/web/global.sass"
+          "priv/static/css/web/core.css": "precompiled/sass/web/core.sass"
         # END files
       # END web
     # END sass
@@ -45,7 +49,7 @@ module.exports = (grunt) ->
       # END web_js
 
       web_css:
-        src: ["priv/static/css/web/**/*.css"]
+        src: ["priv/static/css/web/core.css"]
         dest: "priv/static/css/built.css"
       # END web_js
     # END conacat

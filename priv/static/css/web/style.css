@@ -1,5 +1,67 @@
-h1 {
-  color: red;
-}
+/*
+Error: Undefined variable: "$left-width".
+        on line 6 of precompiled/sass/web/style.sass
 
-/*# sourceMappingURL=style.css.map */
+1: .container
+2:   margin: 0px
+3:   padding: 0px
+4: 
+5: .header-panel
+6:   width: $left-width
+7:   height: 150px
+8: 
+9: .content-panel
+10:   width: $right-width
+11: 
+
+Backtrace:
+precompiled/sass/web/style.sass:6
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/exec/base.rb:52:in `parse'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/lib/sass/exec/base.rb:19:in `parse!'
+/Users/jake/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/sass-3.4.8/bin/sass:13:in `<top (required)>'
+/Users/jake/.rvm/rubies/ruby-2.1.5/bin/sass:23:in `load'
+/Users/jake/.rvm/rubies/ruby-2.1.5/bin/sass:23:in `<main>'
+/Users/jake/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+/Users/jake/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$left-width\".\A         on line 6 of precompiled/sass/web/style.sass\A \A 1: .container\A 2:   margin: 0px\A 3:   padding: 0px\A 4: \A 5: .header-panel\A 6:   width: $left-width\A 7:   height: 150px\A 8: \A 9: .content-panel\A 10:   width: $right-width\A 11: "; }

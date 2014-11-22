@@ -1,5 +1,41 @@
-h1 {
-  color: red;
+/* Imports */
+/* Global Variables */
+/* Fonts */
+@font-face {
+  font-family: "Kaushan";
+  src: url("../fonts/KaushanScript-Regular.otf");
+}
+/* Wrappers */
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-panel {
+  width: 33%;
+  height: 150px;
+}
+
+.content-panel {
+  width: 66%;
+}
+
+.side-panel {
+  width: 33%;
+}
+
+h1 {
+  font-family: "Kaushan";
+}
+
+/*# sourceMappingURL=core.css.map */

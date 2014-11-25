@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-panel {
+  width: 100px;
+}
+
+.content-panel {
+  width: 66%;
+}
+
+.side-panel {
+  width: 33%;
+}
+
+h1 {
+  font-family: "Kaushan";
+}
+
+@font-face {
+  font-family: "Kaushan";
+  src: url("../fonts/KaushanScript-Regular.otf");
+}
+
+/*# sourceMappingURL=layout.css.map */

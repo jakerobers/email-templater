@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>
+      Email Templater
+    </title>
+    <link href='css/built.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class='wrapper'>
+      <%= @inner %>
+    </div>
+  </body>
+</html>

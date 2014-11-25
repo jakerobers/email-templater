@@ -1,0 +1,21 @@
+<div class='left-panel'>
+  <div class='header-panel'>
+    <h1>
+      Email
+    </h1>
+    <h1>
+      Templater
+    </h1>
+  </div>
+  <div class='search-panel'>
+    <div>
+      <input placeholder='Search for an email template.' type='text'>
+    </div>
+    <div>
+      <img src='images/search.svg'>
+    </div>
+  </div>
+</div>
+<div class='content-panel'>
+  testing 134
+</div>

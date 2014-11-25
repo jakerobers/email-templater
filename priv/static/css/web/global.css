@@ -1,0 +1,13 @@
+/* Global Variables */
+/* Fonts */
+@font-face {
+  font-family: "Kaushan";
+  src: url("../fonts/KaushanScript-Regular.otf");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.otf");
+}
+/* Mixins */
+
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,83 @@
+/* Imports */
+@import 'global.sass'
+
+/* Elements */
+*
+  margin: 0px
+  padding: 0px
+
+h1
+  font-family: 'Kaushan'
+
+h2
+  font-family: 'Kaushan'
+  padding-top: 30px
+  padding-bottom: 10px
+
+/** Wrapper **/
+.wrapper
+  margin: 0px
+  padding: 0px
+
+  font-family: 'Quicksand'
+  line-height: 150%
+  font-weight: 400
+  color: ffffff
+
+
+/** Left Panel **/
+.left-panel
+  min-width: $left-width
+  height: 100%
+  float: left
+  display: block
+  background-color: #4a4a4a
+
+  /** Header **/
+  .header-panel
+    padding: 15px
+    height: 100px
+    line-height: 143%
+
+
+/** Content Panel **/
+.content-panel
+  width: $right-width
+  float: left
+  height: 100%
+  background-color: #c0c0c0
+  color: #303030
+
+
+/** Search **/
+.search-panel
+  padding: 15px
+  height: 25px
+  display: inline-flex
+
+  input
+    width: 200px
+    height: 25px
+    border-radius: 10px
+    font-family: 'Quicksand' !important
+    color: #000
+    border: 0px solid
+    padding: 10px
+
+  img
+    width: 25px
+    padding-left: 5px
+
+  ::-webkit-input-placeholder
+    text-align: center
+
+  \:-moz-placeholder
+    text-align: center
+
+  ::-moz-placeholder
+    text-align: center
+
+  \:-ms-input-placeholder  
+    text-align: center
+
+

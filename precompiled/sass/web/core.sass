@@ -7,22 +7,24 @@
   padding: 0px
 
 h1
-  font-family: 'Kaushan'
+  font-family: $header-font-family
+  color: $header-font-color
 
 h2
   font-family: 'Kaushan'
   padding-top: 30px
   padding-bottom: 10px
+  color: $secondary-font-color
 
 /** Wrapper **/
 .wrapper
   margin: 0px
   padding: 0px
 
-  font-family: 'Quicksand'
+  font-family: $primary-font-family
   line-height: 150%
   font-weight: 400
-  color: ffffff
+  color: $primary-font-color
 
 
 /** Left Panel **/
@@ -31,7 +33,9 @@ h2
   height: 100%
   float: left
   display: block
-  background-color: #4a4a4a
+  background-color: $secondary-background
+  border: 0px
+  border-radius: $border-radius
 
   /** Header **/
   .header-panel
@@ -45,8 +49,7 @@ h2
   width: $right-width
   float: left
   height: 100%
-  background-color: #c0c0c0
-  color: #303030
+  background-color: $primary-background
 
 
 /** Search **/
@@ -59,10 +62,10 @@ h2
     width: 200px
     height: 25px
     border-radius: 10px
-    font-family: 'Quicksand' !important
-    color: #000
+    font-family: $primary-font-family
     border: 0px solid
     padding: 10px
+    background-color: $primary-background
 
   img
     width: 25px

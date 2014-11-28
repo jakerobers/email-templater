@@ -1,20 +1,24 @@
-Email Templater
-================
+#Email Templater
+
 
 I know, "email templater" is a lame name.. Once my creativity sparks, I will rename it. Anyways, this app will help solve a problem that I (and hopefully many others have).
 
-Example Use Case
------------------
+[See how the data will be stored](https://github.com/jakerobers/email-templater/blob/develop/data.md)
+
+##Example Use Case
+
 So you really want to quit your job, but the problem is that you do not know how to phrase your resignation letter. How formal should it be? Should it be sincere? How long should it be?
 
 Rest assured, Email Templater has your back. The vision of this web application is to equipt users with tons of templates so that they can find the one that fits them.
 
-What Makes Email Templater Unique?
-----------------------------------
+[More Use Cases](https://github.com/jakerobers/email-templater/blob/develop/usecase.md)
+
+##What Makes Email Templater Unique?
+
 Another goal of Email Templater is to automate as much as possible. One area where automation can be used is in filling out the templates. Whenever you fill out a template, we will remember the information that you submit. So when you use a different template, we can fill in the information for you :).
 
-Running Application
--------------------
+##Running Application
+
 
 To start your new Phoenix application:
 

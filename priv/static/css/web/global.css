@@ -1,5 +1,6 @@
-/* Global Variables */
-/* Fonts */
+/**     Global Variables    */
+/**      Color Scheme        */
+/**       Font Families       */
 @font-face {
   font-family: "Kaushan";
   src: url("../fonts/KaushanScript-Regular.otf");
@@ -8,6 +9,6 @@
   font-family: "Quicksand";
   src: url("../fonts/Quicksand-Regular.otf");
 }
-/* Mixins */
+/**      Mixins      */
 
 /*# sourceMappingURL=global.css.map */

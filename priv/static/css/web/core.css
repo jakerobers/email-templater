@@ -1,6 +1,7 @@
 /* Imports */
-/* Global Variables */
-/* Fonts */
+/**     Global Variables    */
+/**      Color Scheme        */
+/**       Font Families       */
 @font-face {
   font-family: "Kaushan";
   src: url("../fonts/KaushanScript-Regular.otf");
@@ -9,7 +10,7 @@
   font-family: "Quicksand";
   src: url("../fonts/Quicksand-Regular.otf");
 }
-/* Mixins */
+/**      Mixins      */
 /* Elements */
 * {
   margin: 0px;
@@ -18,12 +19,14 @@
 
 h1 {
   font-family: "Kaushan";
+  color: #E08E79;
 }
 
 h2 {
   font-family: "Kaushan";
   padding-top: 30px;
   padding-bottom: 10px;
+  color: #C5E0DC;
 }
 
 /** Wrapper */
@@ -33,7 +36,7 @@ h2 {
   font-family: "Quicksand";
   line-height: 150%;
   font-weight: 400;
-  color: ffffff;
+  color: #774F38;
 }
 
 /** Left Panel */
@@ -42,7 +45,9 @@ h2 {
   height: 100%;
   float: left;
   display: block;
-  background-color: #4a4a4a;
+  background-color: #F1D4AF;
+  border: 0px;
+  border-radius: 5px;
   /** Header */
 }
 .left-panel .header-panel {
@@ -56,8 +61,7 @@ h2 {
   width: 81%;
   float: left;
   height: 100%;
-  background-color: #c0c0c0;
-  color: #303030;
+  background-color: #ECE5CE;
 }
 
 /** Search */
@@ -70,10 +74,10 @@ h2 {
   width: 200px;
   height: 25px;
   border-radius: 10px;
-  font-family: "Quicksand" !important;
-  color: #000;
+  font-family: "Quicksand";
   border: 0px solid;
   padding: 10px;
+  background-color: #ECE5CE;
 }
 .search-panel img {
   width: 25px;

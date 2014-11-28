@@ -1,32 +1,36 @@
-/* Global Variables */
+/**     Global Variables    **/
 $right-width: 81%
 $left-width: 100% - $right-width
-
-$goal--width: 200px
-$goal--height: 124px
-$goal--panel-height: 300px
-$goal--vertical-padding: 50px
-$goal--horizontal-spacing: 10%
-$goal--vertical-spacing: 200px
+$border-radius: 5px
 
 
-$radius: 5px
+/**      Color Scheme        **/
+$primary-background: #ECE5CE
+$secondary-background: #F1D4AF
+
+$header-font-color: #E08E79
+$primary-font-color: #774F38
+$secondary-font-color: #C5E0DC
+
+$header-font-family: 'Kaushan'
+$primary-font-family: 'Quicksand'
 
 
 
-/* Fonts */
+/**       Font Families       **/
 @font-face
   font-family: 'Kaushan'
   src: url('../fonts/KaushanScript-Regular.otf')
-
 
 @font-face
   font-family: 'Quicksand'
   src: url('../fonts/Quicksand-Regular.otf')
 
-/* Mixins */
-=border-radius($radius)
-  -webkit-border-radius: $radius
-  -moz-border-radius: $radius
-  -ms-border-radius: $radius
-  border-radius: $radius
+
+
+/**      Mixins      **/
+=border-radius($border-radius)
+  -webkit-border-radius: $border-radius
+  -moz-border-radius: $border-radius
+  -ms-border-radius: $border-radius
+  border-radius: $border-radius

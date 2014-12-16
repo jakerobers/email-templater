@@ -1,15 +1,32 @@
 defmodule Email.Router do
   use Phoenix.Router
 
-  scope "/" do
+
+  pipeline :browser do
+    plug :accept
+    plug :fetch_session
+  end
+
+  pipeline :api do
+    plug :accept
+  end
+
+
+
+  scope "/", alias: Email do
     # Use the default browser stack.
     pipe_through :browser
 
     get "/", Email.PageController, :index, as: :pages
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api" do
-  #   pipe_through :api
-  # end
+
+  scope "/api", alias: Email.Api do
+    pipe_through :api
+
+    resources "/user", UserController
+    resources "/template", TemplateController
+    resources "/user_information", UserInformationController
+
+  end
 end

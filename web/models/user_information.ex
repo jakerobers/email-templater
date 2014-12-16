@@ -1,2 +1,10 @@
 defmodule Email.UserInformation do
-  use Phoenix.Model
+  use Ecto.Model
+
+    schema " userInformation" do
+      field :first_name
+      field :last_name
+      field :employment
+      field :employment_position
+    end
+end

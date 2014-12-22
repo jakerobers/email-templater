@@ -1,4 +1,4 @@
-defmodule Repo do
+defmodule Email.Repo do
 	use Ecto.Repo, adapter: Ecto.Adapters.Postgres
 
 	def conf do

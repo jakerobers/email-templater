@@ -3,7 +3,8 @@ defmodule Email.Router do
 
 
   pipeline :browser do
-    plug :accept
+    plug :accept    # do we still need this?
+    plug :accepts, ~w(html)
     plug :fetch_session
   end
 

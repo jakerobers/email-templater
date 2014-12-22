@@ -2,7 +2,7 @@ defmodule Email.Template do
   use Ecto.Model
 
   schema "template" do
-    field :template_id, :integer
+    field :id, :integer
     field :creator_id, :integer
     field :email_content
     field :title
